@@ -1,0 +1,86 @@
+.rgbPicker {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.colorPreviewWrapper {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-right: 1px solid #eee;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.colorPreview {
+  width: 15px;
+  height: 15px;
+}
+
+.colorRange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.colorRangeLabel {
+  color: #4e4e4e;
+  margin-right: 10px;
+}
+
+.colorRangeInput {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  height: 2px;
+  outline: none;
+}
+
+.colorRangeInput::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.colorRangeInput::-moz-range-thumb {
+  appearance: none;
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.dropdown {
+  width: 180px;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 0 2px #000;
+  right: -70%;
+  top: 120%;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.dropdownButtons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dropdownButtons button {
+  border: 1px solid #4e4e4e;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+  outline: none;
+}

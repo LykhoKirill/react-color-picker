@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "babel",
+    "react",
+    "import",
+    "react-hooks"
+  ],
+  "env": {
+    "browser" : true
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}

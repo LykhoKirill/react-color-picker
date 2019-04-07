@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #282c34;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header h1 {
+  font-size: 32px;
+}
+
+.colorPickerContainer {
+  width: 200px;
+}

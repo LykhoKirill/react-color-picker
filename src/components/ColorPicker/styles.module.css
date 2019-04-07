@@ -1,0 +1,19 @@
+.colorPicker {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  display: flex;
+}
+
+.colorDisplay {
+  flex-grow: 3;
+}
+
+.rgbPicker {
+  flex-grow: 1;
+}
+
+.dropdownPicker {
+  flex-grow: 1;
+}
